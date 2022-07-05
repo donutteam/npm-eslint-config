@@ -1,0 +1,14 @@
+{
+  "name": "@donutteam/eslint-config",
+  "version": "1.0.0",
+  "description": "An ESLint config for people who like readable code.",
+  "main": "./index.js",
+  "scripts": {},
+  "keywords": [
+    "eslint",
+	"eslintconfig",
+    "eslint-config"
+  ],
+  "author": "Donut Team",
+  "license": "MIT"
+}
