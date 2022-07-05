@@ -6,9 +6,10 @@ Rationale for each decision can be found within [index.js](https://github.com/do
 This configuration can be used for Node.js *or* Browser targetting code. It also opts into [Mocha](https://mochajs.org/) globals for tests.
 
 # Installation
+Since this is just a linter config, you probably want to install it with `--save-dev`:
 
 ```
-npm install @donutteam/eslint-config
+npm install --save-dev @donutteam/eslint-config
 ```
 
 # Usage
