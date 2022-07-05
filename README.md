@@ -5,14 +5,14 @@ Rationale for each decision can be found within [index.js](https://github.com/do
 
 This configuration can be used for Node.js *or* Browser targetting code. It also opts into [Mocha](https://mochajs.org/) globals for tests.
 
-# Installation
+## Installation
 Since this is just a linter config, you probably want to install it with `--save-dev`:
 
 ```
 npm install --save-dev @donutteam/eslint-config
 ```
 
-# Usage
+## Usage
 Simply extend the config within your ESLint config. Here's an example using an `.eslintrc.cjs` file:
 
 ```js
@@ -25,5 +25,5 @@ module.exports =
 };
 ```
 
-# License
+## License
 [MIT](https://github.com/donutteam/eslint-config/blob/main/LICENSE.md)
