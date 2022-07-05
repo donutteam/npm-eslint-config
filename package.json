@@ -10,5 +10,9 @@
     "eslint-config"
   ],
   "author": "Donut Team",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+	"url": "https://github.com/donutteam/eslint-config.git"
+  }
 }
