@@ -15,6 +15,11 @@ module.exports =
 	[
 		"eslint:recommended",
 	],
+	ignorePatterns:
+	[
+		"**/static/index.js",
+		"**/static/index.map.js",
+	],
 	parserOptions:
 	{
 		ecmaVersion: "latest",
