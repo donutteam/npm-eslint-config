@@ -17,6 +17,7 @@ module.exports =
 	],
 	ignorePatterns:
 	[
+		"**/dist/*",
 		"**/static/index.js",
 		"**/static/index.map.js",
 	],
