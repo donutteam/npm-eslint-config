@@ -2,6 +2,7 @@
 // Eslint Configuration
 //
 
+/** @type {import("eslint").ESLint.ConfigData} */
 module.exports =
 {
 	env:
