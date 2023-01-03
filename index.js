@@ -74,10 +74,13 @@ module.exports =
 
 		// Disallow unused variables EXCEPT function arguments
 		//
+		//	Base rule is disabled as recommended by @typescript-eslint
+		//
 		//	Allowing function arguments is massively beneficial for any
 		//	potential revisions to code that may start using unused
 		//	arguments
-		"no-unused-vars":
+		"no-unused-vars": "off",
+		"@typescript-eslint/no-unused-vars":
 		[
 			"error",
 			{
