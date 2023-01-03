@@ -14,18 +14,25 @@ module.exports =
 	extends:
 	[
 		"eslint:recommended",
+		"plugin:@typescript-eslint/recommended",
 	],
 	ignorePatterns:
 	[
+		"**/build/*",
 		"**/dist/*",
-		"**/static/index.js",
-		"**/static/index.map.js",
+		"**/lib/*",
+		"**/static/*",
 	],
+	parser: "@typescript-eslint/parser",
 	parserOptions:
 	{
 		ecmaVersion: "latest",
 		sourceType: "module",
 	},
+	plugins:
+	[
+		"@typescript-eslint",
+	],
 	rules:
 	{
 		// Enforce braces on the next line
