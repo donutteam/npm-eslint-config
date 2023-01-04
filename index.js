@@ -61,9 +61,12 @@ module.exports =
 
 		// Require tabs
 		//
+		//	Base rule is disabled as recommended by @typescript-eslint
+		//
 		//	Besides the fact that spaces are trash, there is legitimate
 		//	accessibility concerns related to using them
-		"indent":
+		"indent": "off",
+		"@typescript-eslint/indent":
 		[
 			"error",
 			"tab", // The only correct indentation
