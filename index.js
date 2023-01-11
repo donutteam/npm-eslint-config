@@ -65,6 +65,9 @@ module.exports =
 		//
 		//	Besides the fact that spaces are trash, there is legitimate
 		//	accessibility concerns related to using them
+		//
+		// 	Update: Tabs are still great but @typescript-eslint/indent is borked and stupid so I'm disabling this in favor of letting WebStorm handle it.
+		/*
 		"indent": "off",
 		"@typescript-eslint/indent":
 		[
@@ -74,6 +77,7 @@ module.exports =
 				SwitchCase: 1,
 			},
 		],
+		*/
 
 		// Disallow unused variables EXCEPT function arguments
 		//
